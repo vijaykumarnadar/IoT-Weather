@@ -202,13 +202,13 @@ After all the previous steps are completed, now its time to let the module to up
 It calls the "insert.php" as an API call with passing all the parameters to send in GET method.
 
 The below code snippet shows how the parameters are processed.
-
-if (isset($_GET['temp']) && isset($_GET['hum']) && isset($_GET['pres']) && isset<br>($_GET['aqi']) && isset($_GET['mac']) && isset($_GET['lat']) && isset($_GET['lon
-']))
-2. {
-3. // main program
-4. }
-
+```c
+ if (isset($_GET['temp']) && isset($_GET['hum']) && isset($_GET['pres']) && isset<br>($_GET['aqi']) && isset($_GET['mac']) && isset($_GET['lat']) && isset($_GET['lon
+ ']))
+ {
+ // main program
+ }
+```
 Like so all the modules starts uploading the data.
 
 > Note: Lower the upload frequency in the code if you feel the server is getting overloaded.
@@ -240,7 +240,7 @@ It is pretty straightforward to access the data from the server. Just by calling
 A sample request is made using POSTMAN tool to check the working of the API.
 
 An example of parsing JSON response in javascript is shown in the code snippet below.
-``` javascript
+``` js
 var url = "https://example.com/retrieve.php?lat=19.044848&lon=72.8464373";<br>function httpGet(theUrl)
 var xmlHttp = new XMLHttpRequest();
 xmlHttp.open( "GET", theUrl, false); // false for synchronous request
