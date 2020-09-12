@@ -1,4 +1,4 @@
-![Smart Distributed IoT Weather Monitoring System Using NodeMCU](https://content.instructables.com/ORIG/FMY/NORI/KBDNLXSV/FMYNORIKBDNLXSV.jpg?auto=webp&frame=1&width=933&height=400&fit=bounds&md=3938d4a65d0b4317a2e019bbd55975ae)
+![Smart Distributed IoT Weather Monitoring System Using NodeMCU](https://content.instructables.com/ORIG/FMY/NORI/KBDNLXSV/FMYNORIKBDNLXSV.jpg?auto=webp&frame=1&width=933&height=1024&fit=bounds&md=3938d4a65d0b4317a2e019bbd55975ae)
 
 You all might be aware of the traditional weather station; but have you ever wondered how it actually works? Since the traditional weather station is costly and bulky, the density of these stations per unit area is very less which contributes to the inaccuracy of the data. I'll explain you how: Suppose a station is located in the middle of a city and it is the only station that is located in 'x' meter radius, it can be easily biased if any pollution-causing agent is present in the vicinity of the station showing the entire 'x' meter radius area as polluted since that single station is responsible to determine the weather data of the whole area.
 
@@ -49,7 +49,7 @@ Solder All the Components and Upload the Program to the NodeMCU.
 
 ![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&width=690&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)
 
-![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FG0/8V8U/KBDNLVCD/FG08V8UKBDNLVCD.jpg?auto=webp&frame=1&width=510&height=400&fit=bounds&md=5795bd24558b25fa0e5e9d7a8fb360b1)
+![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FG0/8V8U/KBDNLVCD/FG08V8UKBDNLVCD.jpg?auto=webp&frame=1&width=510&height=1024&fit=bounds&md=5795bd24558b25fa0e5e9d7a8fb360b1)
 
 Solder all the components to the NodeMCU as shown in the circuit diagram on a perf board. Also, solder a capacitor in parallel to the powerlines since the power surges during actively transmitting and receiving data.
 
