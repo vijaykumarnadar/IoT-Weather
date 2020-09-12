@@ -240,7 +240,7 @@ It is pretty straightforward to access the data from the server. Just by calling
 A sample request is made using POSTMAN tool to check the working of the API.
 
 An example of parsing JSON response in javascript is shown in the code snippet below.
-
+``` javascript
 var url = "https://example.com/retrieve.php?lat=19.044848&lon=72.8464373";<br>function httpGet(theUrl)
 {
 	var xmlHttp = new XMLHttpRequest();
@@ -255,6 +255,7 @@ document.getElementById("temperature").innerHTML = Math.round(obj.data[0].temp) 
 document.getElementById("temp").innerHTML = Math.round(obj.data[0].temp) + "°C";
 document.getElementById("humidity").innerHTML = Math.round(obj.data[0].hum) + "%";
 document.getElementById("pressure").innerHTML = Math.round(obj.data[0].pres) + " mb";
+```
 
 The source code of the example HTML page that parses the JSON response is available at the end of this step.
 
