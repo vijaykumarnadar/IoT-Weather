@@ -203,8 +203,7 @@ It calls the "insert.php" as an API call with passing all the parameters to send
 
 The below code snippet shows how the parameters are processed.
 ```c
- if (isset($_GET['temp']) && isset($_GET['hum']) && isset($_GET['pres']) && isset<br>($_GET['aqi']) && isset($_GET['mac']) && isset($_GET['lat']) && isset($_GET['lon
- ']))
+ if (isset($_GET['temp']) && isset($_GET['hum']) && isset($_GET['pres']) && isset<br>($_GET['aqi']) && isset($_GET['mac']) && isset($_GET['lat']) && isset($_GET['lon']))
  {
  // main program
  }
