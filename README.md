@@ -47,9 +47,9 @@ It is the end-user who request the weather data from the server. The client send
 Solder All the Components and Upload the Program to the NodeMCU.
 ------------------------------------------------------------------------
 
-[![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&width=690&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)
+![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&width=690&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)
 
-[![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FG0/8V8U/KBDNLVCD/FG08V8UKBDNLVCD.jpg?auto=webp&frame=1&width=510&height=1024&fit=bounds&md=5795bd24558b25fa0e5e9d7a8fb360b1)](https://content.instructables.com/ORIG/FG0/8V8U/KBDNLVCD/FG08V8UKBDNLVCD.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=5795bd24558b25fa0e5e9d7a8fb360b1)
+![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FG0/8V8U/KBDNLVCD/FG08V8UKBDNLVCD.jpg?auto=webp&frame=1&width=510&height=400&fit=bounds&md=5795bd24558b25fa0e5e9d7a8fb360b1)
 
 Solder all the components to the NodeMCU as shown in the circuit diagram on a perf board. Also, solder a capacitor in parallel to the powerlines since the power surges during actively transmitting and receiving data.
 
