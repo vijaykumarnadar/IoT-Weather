@@ -14,9 +14,9 @@
 #define DHTPIN D4
 #define DHTTYPE DHT11
 #define button D5
-#define firmware "iotUpdater_v1.1"
-#define update_server "example.com"
-#define update_uri "/update.php"
+#define firmware "iotUpdater"
+#define update_server "iotweather007.000webhostapp.com"
+#define update_uri "/updatefirmware.php"
 String art = R"(
 
   _____   _______  __          __        _   _                  _____ _        _   _             
@@ -24,16 +24,16 @@ String art = R"(
    | |  ___ | |     \ \  /\  / /__  __ _| |_| |__   ___ _ __  | (___ | |_ __ _| |_ _  ___  _ __  
    | | / _ \| |      \ \/  \/ / _ \/ _` | __| '_ \ / _ \ '__|  \___ \| __/ _` | __| |/ _ \| '_ \ 
   _| || (_) | |       \  /\  /  __/ (_| | |_| | | |  __/ |     ____) | || (_| | |_| | (_) | | | |
- |_____\___/|_|        \/  \/ \___|\__,_|\__|_| |_|\___|_|    |_____/ \__\__,_|\__|_|\___/|_| |_| -By Vijay
+ |_____\___/|_|        \/  \/ \___|\__,_|\__|_| |_|\___|_|    |_____/ \__\__,_|\__|_|\___/|_| |_| -By Vijay-8206
                                                                                                  
                                                                                                  
 
 )";
-const char* host = "example.com"; // host url
+const char* host = "iotweather007.000webhostapp.com"; // host url
 DHT dht(DHTPIN, DHTTYPE);
 SFE_BMP180 pressure;
 Ticker secondTick;
-SNTPtime NTPch("in.pool.ntp.org"); // SNTP Indian Server, Replace it according to your location.
+SNTPtime NTPch("in.pool.ntp.org"); // SNTP Server
 strDateTime dateTime;
 const int analogInPin = A0;
 int sensorValue = 0;
@@ -65,7 +65,9 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   secondTick.attach(1,ISRwatchdog); // ISR to run every second
   Serial.println();
-  if(digitalRead(button) || checkconf()){
+  bool mod = digitalRead(D5);
+  Serial.println(digitalRead(D5));
+  if(mod && !checkconf()){
     Serial.println(art);
     WAP();
   }
@@ -184,7 +186,7 @@ void IOT()
         Serial.println("connection failed"); // tries to connect to the host.
         return;
       }
-      String url = "/weather/insert.php?temp=" + String(Average_temp) + "&hum="+ String(h) + "&pres=" + String(rounded_P) + "&aqi="+ String(sensorValue) + "&mac=" + String(mac) + "&lat=" + String(string_lat) + "&lon=" + String(string_lon);
+      String url = "/weather/insert_final.php?temp=" + String(Average_temp) + "&hum="+ String(h) + "&pres=" + String(rounded_P) + "&aqi="+ String(sensorValue) + "&mac=" + String(mac) + "&lat=" + String(string_lat) + "&lon=" + String(string_lon);
       Serial.print("Requesting URL: ");
       Serial.println(url);
       // requests the server with url (host url + query)
@@ -227,15 +229,15 @@ void iotUpdater(bool debug) {
   t_httpUpdate_return ret = ESPhttpUpdate.update(update_server, 80, update_uri, firmware);
   switch (ret) {
     case HTTP_UPDATE_FAILED:
-    if (debug) Serial.printf("HTTP_UPDATE_FAILD Error (%d): %s", ESPhttpUpdate.getLastError(), ESPhttpUpdate.getLastErrorString().c_str());
+    Serial.printf("HTTP_UPDATE_FAILD Error (%d): %s", ESPhttpUpdate.getLastError(), ESPhttpUpdate.getLastErrorString().c_str());
     break;
 
     case HTTP_UPDATE_NO_UPDATES:
-    if (debug) Serial.println("HTTP_UPDATE_NO_UPDATES");
+    Serial.println("HTTP_UPDATE_NO_UPDATES");
     break;
 
     case HTTP_UPDATE_OK:
-    if (debug) Serial.println("HTTP_UPDATE_OK");
+    Serial.println("HTTP_UPDATE_OK");
     break;
   }
 }
