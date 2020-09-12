@@ -179,7 +179,7 @@ Module Setup
 
 ![Module Setup](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&width=423&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)
 
-![Module Setup](https://content.instructables.com/ORIG/F6N/8OZR/KBFVC82Y/F6N8OZRKBFVC82Y.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=c9adc451c692bc7f6b84d7a599e5a0fa){:class="img-responsive"}
+![Module Setup](https://content.instructables.com/ORIG/F6N/8OZR/KBFVC82Y/F6N8OZRKBFVC82Y.png?auto=webp&frame=1&crop=3:2&width=777&fit=bounds&md=c9adc451c692bc7f6b84d7a599e5a0fa){:class="img-responsive"}
 
 An Access-point is created and a webpage is hosted on an IP address(Default:192.168.4.1) to receive the credentials from the device manager/user on the very first boot or if the module does not find the already stored credentials in the EEPROM.
 
