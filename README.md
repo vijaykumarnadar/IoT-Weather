@@ -74,7 +74,7 @@ Watchdog Timer: Atlast there must be a way to recover itself without any human 
 Configuring the SQL Server
 ----------------------------------
 
-[![Configuring the SQL Server](https://content.instructables.com/ORIG/F3U/92NZ/KBF2Z16Z/F3U92NZKBF2Z16Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=039bfa7d524895b655277f9c5c633d4d)](https://content.instructables.com/ORIG/F3U/92NZ/KBF2Z16Z/F3U92NZKBF2Z16Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=039bfa7d524895b655277f9c5c633d4d)
+![Configuring the SQL Server](https://content.instructables.com/ORIG/F3U/92NZ/KBF2Z16Z/F3U92NZKBF2Z16Z.png?auto=webp&frame=1&width=1000&fit=bounds&md=039bfa7d524895b655277f9c5c633d4d)
 
 The SQL Server setup is also really simple. Just create a database in SQL server and Import the setting by importing the file named "database_structure.txt". You can find the file in this step. As the instructable doesn't allow to upload ".sql" files, I've renamed the file to ".txt".
 
