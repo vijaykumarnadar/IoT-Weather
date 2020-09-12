@@ -241,13 +241,16 @@ A sample request is made using POSTMAN tool to check the working of the API.
 
 An example of parsing JSON response in javascript is shown in the code snippet below.
 ``` js
-var url = "https://example.com/retrieve.php?lat=19.044848&lon=72.8464373";<br>function httpGet(theUrl)
-var xmlHttp = new XMLHttpRequest();
-xmlHttp.open( "GET", theUrl, false); // false for synchronous request
-xmlHttp.send( null );
-return xmlHttp.responseText;
+var url = "https://example.com/retrieve.php?lat=19.044848&lon=72.8464373";
+function httpGet(theUrl)
+{
+	var xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", theUrl, false); // false for synchronous request
+	xmlHttp.send( null );
+	return xmlHttp.responseText;
+}
 var myVar = httpGet(url);
-var obj = JSON.parse(myVar);
+var obj = JSON.parse(myVar); 
 document.getElementById("aqi").innerHTML = obj.data[0].aqi;
 document.getElementById("temperature").innerHTML = Math.round(obj.data[0].temp) + "°C";
 document.getElementById("temp").innerHTML = Math.round(obj.data[0].temp) + "°C";
