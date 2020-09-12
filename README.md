@@ -44,9 +44,7 @@ It is the end-user who request the weather data from the server. The client send
 
 -   A Website (to host the PHP and MySQL server)
 
-Add TipAsk QuestionCommentDownload
-
-Step 1: Solder All the Components and Upload the Program to the NodeMCU.
+Solder All the Components and Upload the Program to the NodeMCU.
 ------------------------------------------------------------------------
 
 [![Solder All the Components and Upload the Program to the NodeMCU.](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&width=690&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)](https://content.instructables.com/ORIG/FSC/CAFP/KBDNLVBQ/FSCCAFPKBDNLVBQ.png?auto=webp&frame=1&fit=bounds&md=ca74d868117bb3ad1df98ad9399b421c)
@@ -73,19 +71,7 @@ OTA update: The module also checks for new firmware update every day at a speci
 
 Watchdog Timer: Atlast there must be a way to recover itself without any human intervention if it gets stuck or crashes. This can be achieved by using the Watchdog timer. The way this works is: There is an Interrupt sub-routine that runs every second. The ISR increments the counter every time it executes and checks whether the counter has reached the maximum count. Once the counter reaches the maximum value, the module resets itself assuming it has crashed. On normal operation, the counter always gets reset before it reaches the maximum count.
 
-### Attachments
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)code.c](https://content.instructables.com/ORIG/FT5/LNAJ/KBF2Z3U0/FT5LNAJKBF2Z3U0.c)
-
-    [Download](https://content.instructables.com/ORIG/FT5/LNAJ/KBF2Z3U0/FT5LNAJKBF2Z3U0.c)
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)html_file.h](https://content.instructables.com/ORIG/FHA/04CW/KBF2Z3U1/FHA04CWKBF2Z3U1.h)
-
-    [Download](https://content.instructables.com/ORIG/FHA/04CW/KBF2Z3U1/FHA04CWKBF2Z3U1.h)
-
-Add TipAsk QuestionCommentDownload
-
-Step 2: Configuring the SQL Server
+Configuring the SQL Server
 ----------------------------------
 
 [![Configuring the SQL Server](https://content.instructables.com/ORIG/F3U/92NZ/KBF2Z16Z/F3U92NZKBF2Z16Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=039bfa7d524895b655277f9c5c633d4d)](https://content.instructables.com/ORIG/F3U/92NZ/KBF2Z16Z/F3U92NZKBF2Z16Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=039bfa7d524895b655277f9c5c633d4d)
@@ -94,15 +80,7 @@ The SQL Server setup is also really simple. Just create a database in SQL server
 
 > Note: Rename the file from ".txt" to ".sql".
 
-### Attachments
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)database_structure.txt](https://content.instructables.com/ORIG/F5H/05YL/KBF2Z0N6/F5H05YLKBF2Z0N6.txt)
-
-    [Download](https://content.instructables.com/ORIG/F5H/05YL/KBF2Z0N6/F5H05YLKBF2Z0N6.txt)
-
-Add TipAsk QuestionCommentDownload
-
-Step 3: Configuring the File Server
+Configuring the File Server
 -----------------------------------
 
 Configuring the server is really easy if you own a website and it is hosted online. I won't go through the whole procedure of setting up a website and hosting it since it is beyond the scope of this tutorial. But you can host it in your own pc as localhost to try the working of the files.
@@ -139,31 +117,7 @@ This PHP file is called by the module every day at a specific time to check whet
 
 If these many files seems daunting at first, I've included the user documentation in the next step.
 
-### Attachments
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)db_config.txt](https://content.instructables.com/ORIG/F9Z/HL9K/KBF2YV8Z/F9ZHL9KKBF2YV8Z.txt)
-
-    [Download](https://content.instructables.com/ORIG/F9Z/HL9K/KBF2YV8Z/F9ZHL9KKBF2YV8Z.txt)
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)db_connect.txt](https://content.instructables.com/ORIG/FEK/Q3F5/KBF2YVA5/FEKQ3F5KBF2YVA5.txt)
-
-    [Download](https://content.instructables.com/ORIG/FEK/Q3F5/KBF2YVA5/FEKQ3F5KBF2YVA5.txt)
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)insert.txt](https://content.instructables.com/ORIG/FZA/1WRP/KBF2YV8W/FZA1WRPKBF2YV8W.txt)
-
-    [Download](https://content.instructables.com/ORIG/FZA/1WRP/KBF2YV8W/FZA1WRPKBF2YV8W.txt)
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)retrieve.txt](https://content.instructables.com/ORIG/F96/UGMR/KBF2YV8X/F96UGMRKBF2YV8X.txt)
-
-    [Download](https://content.instructables.com/ORIG/F96/UGMR/KBF2YV8X/F96UGMRKBF2YV8X.txt)
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)update.txt](https://content.instructables.com/ORIG/FPR/M6JK/KBF2YV8Y/FPRM6JKKBF2YV8Y.txt)
-
-    [Download](https://content.instructables.com/ORIG/FPR/M6JK/KBF2YV8Y/FPRM6JKKBF2YV8Y.txt)
-
-Add TipAsk QuestionCommentDownload
-
-Step 4: User Documentation
+User Documentation
 --------------------------
 
 [![User Documentation](https://content.instructables.com/ORIG/FWS/7AZJ/KBF2ZBYU/FWS7AZJKBF2ZBYU.png?auto=webp&frame=1&fit=bounds&md=8158583efc33feeed1fea77bd48e30f3)](https://content.instructables.com/ORIG/FWS/7AZJ/KBF2ZBYU/FWS7AZJKBF2ZBYU.png?auto=webp&frame=1&fit=bounds&md=8158583efc33feeed1fea77bd48e30f3)
@@ -220,9 +174,7 @@ For each valid request, the time zone service will return a response in the form
 
 > The examples response of both formats can be seen in the images.
 
-Add TipAsk QuestionCommentDownload
-
-Step 5: Module Setup
+Module Setup
 --------------------
 
 [![Module Setup](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&width=423&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)
@@ -237,9 +189,8 @@ Once all the details are entered, click on the "SEND" button, and then all the c
 
 This step is very crucial since while mass-producing the modules, it is not feasible to program all the modules with its exact location data and WiFi credentials. Also, it is not advisable to hard-code the credentials in the program since if at all we need to relocate the module to some other location or want to change the WiFi credentials, We will need to reprogram the module. To avoid this hassle, the initial setup function is implemented.
 
-Add TipAsk QuestionCommentDownload
 
-Step 6: Now Its Time to Contribute Data to the Cloud.
+Now Its Time to Contribute Data to the Cloud.
 -----------------------------------------------------
 
 [![Now Its Time to Contribute Data to the Cloud.](https://content.instructables.com/ORIG/F46/6LFY/KBFVC82D/F466LFYKBFVC82D.png?auto=webp&frame=1&crop=3:2&width=600&fit=bounds&md=f0be0368543d19861206a878e2540efc)](https://content.instructables.com/ORIG/F46/6LFY/KBFVC82D/F466LFYKBFVC82D.png?auto=webp&frame=1&width=1024&fit=bounds&md=f0be0368543d19861206a878e2540efc)
@@ -262,9 +213,8 @@ Like so all the modules starts uploading the data.
 
 > Note: Lower the upload frequency in the code if you feel the server is getting overloaded.
 
-Add TipAsk QuestionCommentDownload
 
-Step 7: Over the Air(OTA) Update
+Over the Air(OTA) Update
 --------------------------------
 
 [![Over the Air(OTA) Update](https://content.instructables.com/ORIG/FFH/9NBX/KBFVC9K5/FFH9NBXKBFVC9K5.png?auto=webp&frame=1&fit=bounds&md=e1364b5ccaa4ec642b4316997ea540b4)](https://content.instructables.com/ORIG/FFH/9NBX/KBFVC9K5/FFH9NBXKBFVC9K5.png?auto=webp&frame=1&fit=bounds&md=e1364b5ccaa4ec642b4316997ea540b4)
@@ -275,9 +225,8 @@ To check for a new update, the module calls the "update.php" by sending the MAC 
 
 It also checks for all the necessary headers required for basic authentication of the module.
 
-Add TipAsk QuestionCommentDownload
 
-Step 8: How User/Client Can Access the Data...
+How User/Client Can Access the Data...
 ----------------------------------------------
 
 [![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/F4E/0JTI/KBFVCBS4/F4E0JTIKBFVCBS4.png?auto=webp&frame=1&crop=3:2&width=853&fit=bounds&md=92084d6ab76ebfdc9bd6a42c29e72ff8)](https://content.instructables.com/ORIG/F4E/0JTI/KBFVCBS4/F4E0JTIKBFVCBS4.png?auto=webp&frame=1&width=1024&fit=bounds&md=92084d6ab76ebfdc9bd6a42c29e72ff8)
@@ -311,15 +260,7 @@ The source code of the example HTML page that parses the JSON response is availa
 
 > Note: Change the extension of the file to ".html".
 
-### Attachments
-
--   [![download {{ file.name }}](https://cdn.instructables.com/static/image/file.default.gif)webpage.txt](https://content.instructables.com/ORIG/FM1/4DKY/KBFVCFO1/FM14DKYKBFVCFO1.txt)
-
-    [Download](https://content.instructables.com/ORIG/FM1/4DKY/KBFVCFO1/FM14DKYKBFVCFO1.txt)
-
-Add TipAsk QuestionCommentDownload
-
-Step 9: Limitations of This Project
+Limitations of This Project
 -----------------------------------
 
 -   The project uses GET to send the data; even though it is not dealing with sensitive data, the data can be easily manipulated since it doesn't have any mechanism to check the authenticity of the source apart from checking the headers, which can be easily modified and even a normal device can be spoofed to seem like a weather module.
@@ -327,9 +268,8 @@ Step 9: Limitations of This Project
 -   Even though the project is built to increase the accuracy of the existing system, the sensor available in the market is less accurate than expected which in result leads to fails its main purpose.
 -   While planning the project, I planned to include a mode in which the server averages the data value based on location for error correction. But upon implementing this feature, I realized that it needed some third-party APIs to translate the coordinates to geographic regions.
 
-Add TipAsk QuestionCommentDownload
 
-Step 10: Further Improvements That Can Be Made to This Project.
+Further Improvements That Can Be Made to This Project.
 ---------------------------------------------------------------
 
 -   The accuracy of the module can be further improved by specially tailoring the sensors for the specific purpose instead of using the generic module that is available in the market.
