@@ -120,9 +120,9 @@ If these many files seems daunting at first, I've included the user documentatio
 User Documentation
 --------------------------
 
-[![User Documentation](https://content.instructables.com/ORIG/FWS/7AZJ/KBF2ZBYU/FWS7AZJKBF2ZBYU.png?auto=webp&frame=1&fit=bounds&md=8158583efc33feeed1fea77bd48e30f3)](https://content.instructables.com/ORIG/FWS/7AZJ/KBF2ZBYU/FWS7AZJKBF2ZBYU.png?auto=webp&frame=1&fit=bounds&md=8158583efc33feeed1fea77bd48e30f3)
+![User Documentation](https://content.instructables.com/ORIG/FWS/7AZJ/KBF2ZBYU/FWS7AZJKBF2ZBYU.png?auto=webp&frame=1&fit=bounds&md=8158583efc33feeed1fea77bd48e30f3)
 
-[![User Documentation](https://content.instructables.com/ORIG/F4T/RWB2/KBF2ZBZU/F4TRWB2KBF2ZBZU.png?auto=webp&frame=1&fit=bounds&md=7d178e99b29b7156b243fba4fd16a196)](https://content.instructables.com/ORIG/F4T/RWB2/KBF2ZBZU/F4TRWB2KBF2ZBZU.png?auto=webp&frame=1&fit=bounds&md=7d178e99b29b7156b243fba4fd16a196)
+![User Documentation](https://content.instructables.com/ORIG/F4T/RWB2/KBF2ZBZU/F4TRWB2KBF2ZBZU.png?auto=webp&frame=1&fit=bounds&md=7d178e99b29b7156b243fba4fd16a196)
 
 Introduction:
 
@@ -177,7 +177,7 @@ For each valid request, the time zone service will return a response in the form
 Module Setup
 --------------------
 
-[![Module Setup](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&width=423&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)
+![Module Setup](https://content.instructables.com/ORIG/FY1/ZRUW/KBF2ZL18/FY1ZRUWKBF2ZL18.png?auto=webp&frame=1&width=423&fit=bounds&md=9f46d1e149af9151970ee2354c37d88c)
 
 ![Module Setup](https://content.instructables.com/ORIG/F6N/8OZR/KBFVC82Y/F6N8OZRKBFVC82Y.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=c9adc451c692bc7f6b84d7a599e5a0fa)
 
@@ -193,9 +193,9 @@ This step is very crucial since while mass-producing the modules, it is not feas
 Now Its Time to Contribute Data to the Cloud.
 -----------------------------------------------------
 
-[![Now Its Time to Contribute Data to the Cloud.](https://content.instructables.com/ORIG/F46/6LFY/KBFVC82D/F466LFYKBFVC82D.png?auto=webp&frame=1&crop=3:2&width=600&fit=bounds&md=f0be0368543d19861206a878e2540efc)](https://content.instructables.com/ORIG/F46/6LFY/KBFVC82D/F466LFYKBFVC82D.png?auto=webp&frame=1&width=1024&fit=bounds&md=f0be0368543d19861206a878e2540efc)
+![Now Its Time to Contribute Data to the Cloud.](https://content.instructables.com/ORIG/F46/6LFY/KBFVC82D/F466LFYKBFVC82D.png?auto=webp&frame=1&crop=3:2&width=600&fit=bounds&md=f0be0368543d19861206a878e2540efc)
 
-[![Now Its Time to Contribute Data to the Cloud.](https://content.instructables.com/ORIG/F8O/X6Y3/KBFVC82E/F8OX6Y3KBFVC82E.png?auto=webp&frame=1&crop=3:2&width=600&fit=bounds&md=14b78ccf36109dc6b4d6786d53fca547)](https://content.instructables.com/ORIG/F8O/X6Y3/KBFVC82E/F8OX6Y3KBFVC82E.png?auto=webp&frame=1&width=1024&fit=bounds&md=14b78ccf36109dc6b4d6786d53fca547)
+![Now Its Time to Contribute Data to the Cloud.](https://content.instructables.com/ORIG/F8O/X6Y3/KBFVC82E/F8OX6Y3KBFVC82E.png?auto=webp&frame=1&crop=3:2&width=600&fit=bounds&md=14b78ccf36109dc6b4d6786d53fca547)
 
 After all the previous steps are completed, now its time to let the module to upload the data to the server. It automatically starts uploading once you've saved the credentials.
 
@@ -216,7 +216,7 @@ Like so all the modules starts uploading the data.
 Over the Air(OTA) Update
 --------------------------------
 
-[![Over the Air(OTA) Update](https://content.instructables.com/ORIG/FFH/9NBX/KBFVC9K5/FFH9NBXKBFVC9K5.png?auto=webp&frame=1&fit=bounds&md=e1364b5ccaa4ec642b4316997ea540b4)](https://content.instructables.com/ORIG/FFH/9NBX/KBFVC9K5/FFH9NBXKBFVC9K5.png?auto=webp&frame=1&fit=bounds&md=e1364b5ccaa4ec642b4316997ea540b4)
+![Over the Air(OTA) Update](https://content.instructables.com/ORIG/FFH/9NBX/KBFVC9K5/FFH9NBXKBFVC9K5.png?auto=webp&frame=1&fit=bounds&md=e1364b5ccaa4ec642b4316997ea540b4)
 
 After the module is all set up and starts to upload the data, it checks for firmware updates every day at a specific time mentioned in the program. If it finds any, it downloads and flashes the binary file in it. And if it doesn't, the normal operation of uploading the data is continued.
 
@@ -228,11 +228,11 @@ It also checks for all the necessary headers required for basic authentication o
 How User/Client Can Access the Data...
 ----------------------------------------------
 
-[![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/F4E/0JTI/KBFVCBS4/F4E0JTIKBFVCBS4.png?auto=webp&frame=1&crop=3:2&width=853&fit=bounds&md=92084d6ab76ebfdc9bd6a42c29e72ff8)](https://content.instructables.com/ORIG/F4E/0JTI/KBFVCBS4/F4E0JTIKBFVCBS4.png?auto=webp&frame=1&width=1024&fit=bounds&md=92084d6ab76ebfdc9bd6a42c29e72ff8)
+![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/F4E/0JTI/KBFVCBS4/F4E0JTIKBFVCBS4.png?auto=webp&frame=1&crop=3:2&width=853&fit=bounds&md=92084d6ab76ebfdc9bd6a42c29e72ff8)
 
-[![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/FQE/35DU/KBFVCBSV/FQE35DUKBFVCBSV.png?auto=webp&frame=1&width=347&fit=bounds&md=d510b9c2dd5457d4b07e7190b67510fe)](https://content.instructables.com/ORIG/FQE/35DU/KBFVCBSV/FQE35DUKBFVCBSV.png?auto=webp&frame=1&fit=bounds&md=d510b9c2dd5457d4b07e7190b67510fe)
+![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/FQE/35DU/KBFVCBSV/FQE35DUKBFVCBSV.png?auto=webp&frame=1&width=347&fit=bounds&md=d510b9c2dd5457d4b07e7190b67510fe)
 
-[![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/FF1/CW0D/KBFVCBS3/FF1CW0DKBFVCBS3.png?auto=webp&frame=1&width=347&fit=bounds&md=f124d3579704baa0c512081b5d73acbc)](https://content.instructables.com/ORIG/FF1/CW0D/KBFVCBS3/FF1CW0DKBFVCBS3.png?auto=webp&frame=1&fit=bounds&md=f124d3579704baa0c512081b5d73acbc)
+![How User/Client Can Access the Data...](https://content.instructables.com/ORIG/FF1/CW0D/KBFVCBS3/FF1CW0DKBFVCBS3.png?auto=webp&frame=1&width=347&fit=bounds&md=f124d3579704baa0c512081b5d73acbc)
 
 It is pretty straightforward to access the data from the server. Just by calling the "retrieve.php", we'll get the weather data in response in JSON format. After that, it is just a matter of parsing the JSON data to access the individual elements. Similar is with XML response. The user can always specify the preferred format of response in which the user is comfortable to work with. If the user doesn't specify the format, the default format is JSON.
 
