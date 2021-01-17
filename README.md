@@ -280,5 +280,4 @@ Further Improvements That Can Be Made to This Project.
 -   Instead of NodeMCU, which is a prototyping board, we can use a custom microcontroller in mass-production which not only reduces the cost but also makes the best use of the system resources.
 -   In conjunction with the Google geolocation API and connecting to any available open WIFI, the module can work without even configuring it; ready to transmit data out the factory with no setup needed whatsoever.
 
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijaykumarnadar%2FIoT-Weather&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArugaZ%2Fwhatsapp-bot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
