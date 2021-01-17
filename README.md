@@ -1,3 +1,4 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijaykumarnadar%2FIoT-Weather&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ![Smart Distributed IoT Weather Monitoring System Using NodeMCU](https://content.instructables.com/ORIG/FMY/NORI/KBDNLXSV/FMYNORIKBDNLXSV.jpg?auto=webp&frame=1&width=933&height=1024&fit=bounds&md=3938d4a65d0b4317a2e019bbd55975ae)
 
 You all might be aware of the traditional weather station; but have you ever wondered how it actually works? Since the traditional weather station is costly and bulky, the density of these stations per unit area is very less which contributes to the inaccuracy of the data. I'll explain you how: Suppose a station is located in the middle of a city and it is the only station that is located in 'x' meter radius, it can be easily biased if any pollution-causing agent is present in the vicinity of the station showing the entire 'x' meter radius area as polluted since that single station is responsible to determine the weather data of the whole area.
@@ -280,4 +281,3 @@ Further Improvements That Can Be Made to This Project.
 -   Instead of NodeMCU, which is a prototyping board, we can use a custom microcontroller in mass-production which not only reduces the cost but also makes the best use of the system resources.
 -   In conjunction with the Google geolocation API and connecting to any available open WIFI, the module can work without even configuring it; ready to transmit data out the factory with no setup needed whatsoever.
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArugaZ%2Fwhatsapp-bot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
